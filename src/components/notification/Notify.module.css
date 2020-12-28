@@ -1,0 +1,22 @@
+.hiddenNotification {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+
+.displayedNotification {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: 0.5s;
+}
+
+.notificationText {
+    font-size: 1.2rem;
+    background-color: orange;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
